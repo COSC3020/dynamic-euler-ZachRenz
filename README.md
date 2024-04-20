@@ -18,3 +18,5 @@ but you need to go beyond that.
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
+
+Since my algorithm relies on tail recursion to find Euler's number, doing constant work $n$ times, the worst-case complexity is $\Theta(n)$.
